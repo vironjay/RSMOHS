@@ -1,2 +1,0 @@
-# RSMOHS
-RSMOHS project
