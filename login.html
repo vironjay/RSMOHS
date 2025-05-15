@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>RSMOHS Login</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <div class="left-panel">
+    <img src="logo.png" alt="School Logo" class="logo" />
+    <h2>Ragay Science and Math Oriented High School</h2>
+
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password:</label>
+        <div class="password-box">
+        <input type="password" id="password" name="password" required />
+        <span id="togglePassword">👁️</span>
+        </div>
+
+        <div class="options">
+        <label><input type="checkbox" /> Remember me</label>
+        <a href="#">Forgot Password</a>
+        </div>
+
+        <button type="submit">LOG IN</button>
+    </form>
+    </div>
+
+    <div class="right-panel">
+    <div class="overlay">
+        <img src="school-bg.jpg" class="bg" alt="School background" />
+        <div class="welcome">
+        <img src="rsmohs-logo.png" alt="Logo" />
+        <h2>Welcome to <span>RSMOHS</span></h2>
+        <p>We don’t try to be the best, We strive to be better</p>
+        </div>
+    </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
