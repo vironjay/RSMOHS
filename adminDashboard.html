@@ -44,9 +44,28 @@
     width: 100%;
     }
 
-.nav-item.active {
-    background-color: #3498db;
-}
+    .nav-item, .sidebar a.nav-item {
+    width: 100%;
+    padding: 12px 25px;
+    margin-bottom: 0;
+    background-color: transparent;
+    color: #e3e3e3;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1rem;
+    border-right: 4px solid transparent;
+    }
+
+    .nav-item.active,
+    .nav-item:hover,
+    .sidebar a.nav-item:hover,
+    .sidebar a.nav-item.active {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(58, 109, 140, 0.3);
+    border-right: 9px solid #3D3E3E;
+    padding: 12px 25px;
+    }
 
     .main {
     background-color: #224257;
@@ -120,8 +139,8 @@
 
 <div class="sidebar">
     <div class="profile-pic"></div>
-    <a href="adminDashboard.html "class="nav-item active">Dashboard</a>
-    <a href="adminStudentOverview.html" class="nav-item">Students</a>
+    <a href="dashboard.html" class="nav-item active">Dashboard</a>
+    <a href="students.html" class="nav-item">Students</a>
     <a href="documents.html" class="nav-item">Documents Request</a>
     <a href="grades.html" class="nav-item">Grade Request</a>
     <a href="logout.html" class="footer-section">Log out</a>
