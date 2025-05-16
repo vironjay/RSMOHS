@@ -102,6 +102,10 @@
   }
 
   .welcome {
+    font-family: "Arvo", serif;
+    color:blue
+    position: absolute;
+    top: 15%;
     position: relative;
     z-index: 1;
     text-align: center;
@@ -123,3 +127,11 @@
     font-family: 'Lora', sans-serif;
     
   }
+
+  .arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
